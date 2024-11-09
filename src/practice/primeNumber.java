@@ -15,6 +15,10 @@ public class primeNumber {
 		{
 			System.out.println(num + " is a prime number");
 		}
+		else if (num==4)
+		{
+			System.out.println(num + " is not prime number");
+		}
 		else
 		{
 		for(int i= 1;i<num/2; i++ )
